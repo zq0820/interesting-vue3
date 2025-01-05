@@ -89,6 +89,4 @@ watch(
   background: #ebebeb;
 }
 
-.vue-virtual-scroll-container-real {
-}
 </style>
