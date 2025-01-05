@@ -1,8 +1,8 @@
 <script setup>
 import { onMounted, reactive, ref } from "vue";
-
+import Logos from "../public/AIX1.jpg";
 const list = reactive([]);
-
+const Logo = ref(Logos);
 onMounted(() => {
   for (let i = 0; i < 100; i++) {
     list.push(i);
@@ -23,6 +23,7 @@ onMounted(() => {
       </div>
     </template>
   </VirtualScroll>
+  <Magnifier :src="Logo"></Magnifier>
 </template>
 
 <style scoped>
