@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue()],
 
   build: {
-    outDir: "dist", //输出文件名称
+    outDir: "interesting-vue3", //输出文件名称
     lib: {
       entry: path.resolve(__dirname, "./packages/index.js"), //指定组件编译入口文件
       name: "interesting-vue3",
