@@ -7,7 +7,7 @@ Interesting-Vue3 Some of the encountered components are recorded
 Install via npm or yarn or pnpm:
 
 ```bash
-npm npm i interesting-vue3
+npm i interesting-vue3
 
 ```
 
